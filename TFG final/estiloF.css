@@ -1,0 +1,58 @@
+body {
+    background-color: rgba(155, 174, 181, 1);
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+h2 {
+    text-align: center;
+}
+
+form {
+    width: 50%;
+    margin: 20px auto;
+}
+
+input{
+    margin: 10px auto; /* Ajuste el margen superior e inferior para centrar los campos */
+    padding: 8px;
+    width: calc(100% - 20px); /* Ajusta el ancho para que sea del 100% menos el espacio de los márgenes */
+    border-color: black;
+    display: block; /* Asegura que los campos estén en líneas separadas */
+}
+
+input[type="submit"] {
+    display: block;
+    margin: 10px auto;
+    padding: 8px;
+    width: 50%;
+    border-color: black;
+    background-color: #18d618; 
+    color: #fff;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #219621; 
+}
+
+a {
+    color: #007bff; 
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+p {
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* Estilos para el logo */
+img {
+    display: block;
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+}
